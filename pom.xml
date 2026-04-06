@@ -200,6 +200,20 @@
               <exclude>src/test/resources/lang-708-input.txt</exclude>
               <exclude>**/*.svg</exclude>
               <exclude>**/*.xcf</exclude>
+              <!-- Additional exclusions for RAT build failures -->
+              <exclude>test-classes/**</exclude>
+              <exclude>reports/**</exclude>
+              <exclude>pmd.xml</exclude>
+              <exclude>spotbugsXml.xml</exclude>
+              <exclude>checkstyle-result.xml</exclude>
+              <exclude>maven-archiver/**</exclude>
+              <exclude>javadoc-bundle-options/**</exclude>
+              <exclude>japicmp/**</exclude>
+              <exclude>maven-status/**</exclude>
+              <exclude>rat.txt</exclude>
+              <exclude>antrun/**</exclude>
+              <exclude>maven-javadoc-plugin-stale-data.txt</exclude>
+              <exclude>checkstyle-cachefile</exclude>
             </excludes>
           </configuration>
         </plugin>
