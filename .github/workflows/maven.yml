@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-name: Java CI # test comment
+name: Java CI # test comment.
 
 on: [push, pull_request]
 
